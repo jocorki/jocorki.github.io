@@ -7,14 +7,15 @@ permalink: /projects/
   <li>CSUN (Professional)</li>
     <ul>
       <li><a href="https://ncodrequests.studentaffairs.csun.edu/">NCOD Requests</a></li>
+      <li>NCOD Real-time Captioning (RTC)</li>
       <li><a href="https://greekprep.studentaffairs.csun.edu/">GreekPREP</a></li>
-      <li>SportsPrep</li>
+      <li>SportsPREP</li>
     </ul>
   <li>CSUN (Student)</li>
-  <ul>
+    <ul>
       <li>Facilities Mapping</li>
     </ul>
-      <li>Personal</li>
-      <ul>
-      </ul>
+  <li>Personal</li>
+    <ul>
+    </ul>
 </ol>
