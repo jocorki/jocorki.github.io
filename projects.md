@@ -18,4 +18,11 @@ permalink: /projects/
   <li>Personal</li>
     <ul>
     </ul>
+    <li>Meetup Talks</li>
+    <ul>
+      <li><a href="http://www.meetup.com/CSUN-Community-Web-Application-Development/events/203943902/">Using the CSUN Curriculum web service</a></li>
+      <li><a href="http://www.meetup.com/CSUN-Community-Web-Application-Development/events/203325752/">GreekPREP birth and Using the Box.com API </a></li>
+      <li><a href="http://www.meetup.com/CSUN-Community-Web-Application-Development/events/161776512/">Continuous Deployment of a PHP Laravel Application:  How Laravel Forge can reinforce Continuous Deployment for a Development Team.</a></li>
+      <li><a href="http://www.meetup.com/CSUN-Community-Web-Application-Development/events/161774962/">The CSUN Web Mapping Project.</a></li>
+    </ul>
 </ol>
