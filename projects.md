@@ -9,7 +9,7 @@ permalink: /projects/
       <li><a href="https://ncodrequests.studentaffairs.csun.edu/">NCOD Requests</a></li>
       <li>NCOD Real-time Captioning (RTC)</li>
       <li><a href="https://greekprep.studentaffairs.csun.edu/">GreekPREP</a></li>
-      <li>SportsPREP</li>
+      <li><a href="https://sportsprep.studentaffairs.csun.edu/">SportsPREP</a></li>
     </ul>
   <li>CSUN (Student)</li>
     <ul>
