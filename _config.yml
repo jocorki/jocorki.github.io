@@ -12,3 +12,6 @@ github_username:  JoCorki
 
 # Build settings
 markdown: kramdown
+
+# Theme
+remote_theme: "dracula/gh-pages"
