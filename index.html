@@ -1,22 +1,23 @@
 ---
 layout: default
 ---
-
 <div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
+  <section class="hero" aria-labelledby="intro-title">
+    <h1 id="intro-title">Hi, I'm Jonathan<span class="cursor" aria-hidden="true">_</span></h1>
+    <p class="hero-description">Yet another developer.<br>A few projects and thoughts from my corner of the web.</p>
+    <a href="{{ '/projects/' | prepend: site.baseurl }}">View projects →</a>
+  </section>
+  <section class="writing" aria-labelledby="writing-title">
+    <h2 id="writing-title">Writing</h2>
+    <ul class="post-list">
+      {% for post in site.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+        <a class="post-row" href="{{ post.url | prepend: site.baseurl }}">
+          <span>{{ post.title }}</span>
+          <time class="post-meta" datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+        </a>
       </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+      {% endfor %}
+    </ul>
+  </section>
 </div>

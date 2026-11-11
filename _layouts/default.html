@@ -1,19 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" data-theme="dark">
 
   {% include head.html %}
   {% include google_analytics.html %}
   <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
 
     {% include header.html %}
 
-    <div class="page-content">
+    <main id="main-content" class="page-content">
       <div class="wrapper">
         {{ content }}
       </div>
-    </div>
+    </main>
 
     {% include footer.html %}
+    <script src="{{ '/js/theme.js' | prepend: site.baseurl }}" defer></script>
 
   </body>
 
