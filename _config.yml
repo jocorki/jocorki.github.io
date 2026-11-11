@@ -15,3 +15,8 @@ markdown: kramdown
 
 # Theme
 theme: jekyll-theme-hacker
+
+exclude:
+  - Dockerfile
+  - compose.yaml
+  - readme.md
